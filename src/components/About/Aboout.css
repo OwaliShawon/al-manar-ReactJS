@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    margin: 50px auto 120px;
+    color: #fff;
+}
+
+.service-row{
+    /* align-items: ; */
+}
+
+.service{
+    background: whitesmoke;
+    padding: 30px;
+    margin: 3em;
+    border-radius: 30px;
+    /* position: absolute; */
+    bottom: 0;
+    box-shadow: 0 0 20 10;
+    text-align: center;
+}
+
+.service:hover{
+    background: cyan;
+}
+
+.service-logo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background: white;
+    border: 18px solid #007;
+
+}
+
+.service-logo img{
+    width: 50px;
+    margin-top: 20px;
+}
+
+.service h4{
+    height: 35px;
+    width: 80%;
+    background: #fff;
+    margin: 50px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.service h4::after{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, #fff, #007bff);
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: -1;
+}
+.service h4::before{
+    content: '';
+    width: 40px;
+    height: 30px;
+    background: linear-gradient(to right, rgb(146, 131, 131), #08396d);
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+/* .shadowOne{
+    height: 200px;
+    width: 80%;
+    background: rgb(119, 27, 27);
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 18%;
+    z-index: -2;
+}
+.shadowTwo{
+    height: 200px;
+    width: 80%;
+    background: rgb(181, 196, 182);
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 18%;
+    z-index: -2;
+} */
+
+/* .main:hover .service{
+    transform: translateY(-50px);
+}
+.main:hover .shadowOne{
+    transform: translateY(-25px);
+} */

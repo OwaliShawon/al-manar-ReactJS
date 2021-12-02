@@ -4,5 +4,12 @@
 }
 
 .justify-content-end{
+    display:  flex;
     justify-content: end;
+}
+.logo-upper{
+    padding: .5em;
+    padding-top: .7em;
+    /* align-content: center; */
+    text-align: center;
 }
