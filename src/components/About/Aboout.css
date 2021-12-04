@@ -1,7 +1,7 @@
 h1{
     text-align: center;
-    margin: 50px auto 120px;
-    color: #fff;
+    /* margin: 50px auto 120px; */
+    /* color: #fff; */
 }
 
 .service-row{
@@ -9,21 +9,27 @@ h1{
 }
 
 .service{
-    background: whitesmoke;
+    height: 500px;
+    background: white;
     padding: 30px;
     margin: 3em;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     /* position: absolute; */
     bottom: 0;
     box-shadow: 0 0 20 10;
     text-align: center;
+    border: 1px solid #eaebed;
+    border-style: solid;
+    /* border-color: red; */
+    /* border-width: 1px; */
 }
 
 .service:hover{
-    background: cyan;
+    background: #fd7e14;
+    color: white;
 }
 
-.service-logo{
+/* .service-logo{
     width: 130px;
     height: 130px;
     border-radius: 50%;
@@ -31,7 +37,7 @@ h1{
     background: white;
     border: 18px solid #007;
 
-}
+} */
 
 .service-logo img{
     width: 50px;
@@ -41,7 +47,7 @@ h1{
 .service h4{
     height: 35px;
     width: 80%;
-    background: #fff;
+    /* background: #fff; */
     margin: 50px auto;
     position: relative;
     z-index: 1;
@@ -95,3 +101,7 @@ h1{
 .main:hover .shadowOne{
     transform: translateY(-25px);
 } */
+
+.line{
+    color:#007bff;
+}

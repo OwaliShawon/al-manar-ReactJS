@@ -1,64 +1,82 @@
-import React from 'react';
-import './Footer.css';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faFacebookF, faInstagram, faGooglePlusG } from '@fortawesome/free-brands-svg-icons';
-import FooterCol from '../Footer/FooterCol';
+import React from "react";
+import {
+    Box,
+    Container,
+    Row,
+    Column,
+    FooterLink,
+    Heading,
+} from "./FooterStyles";
 
 const Footer = () => {
-    const signaturePackages = [
-        { name: "Elegant 1", link: "/elegant" },
-        { name: "Elegant 2", link: "elegant" },
-        { name: "Elegant 3", link: "/elegant" },
-        { name: "Elegant 4", link: "/elegant" },
-        { name: "Elegant 5", link: "/elegant" },
-    ]
-    const ourAddress = [
-        { name: "999 Jatrabari", link: "//google.com/map" },
-        { name: "Yards", link: "//google.com/map" },
-
-    ]
-    const oralHealth = [
-        { name: "Emergency Dental Care", link: "/emergency" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Treatment of Personal Diseases", link: "/personal-treatment" },
-        { name: "Tooth Extraction", link: "/tooth-extract" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Check Up", link: "/checkup" },
-        { name: "Check Up", link: "/checkup" }
-    ]
-    const services = [
-        { name: "Wedding Photography", link: "/emergency" },
-        { name: "Wedding Photography", link: "/checkup" },
-        { name: "Child Photography", link: "/personal-treatment" },
-        { name: "Birthday ", link: "/tooth-extract" },
-        { name: "Corporate Event", link: "/checkup" }
-    ]
     return (
-        <footer className="footer-area clear-both">
-            <div className="container pt-5">
-                <div className="row py-5 ">
-                    <FooterCol key={1} menuTitle={"Signature Packages"} menuItems={signaturePackages} />
-                    <FooterCol key={2} menuTitle="Services" menuItems={services} />
-                    <FooterCol key={3} menuTitle="Oral Health" menuItems={oralHealth} />
-                    <FooterCol key={4} menuTitle="Our Address" menuItems={ourAddress}>
-                        <ul className="social-media list-inline">
-                            <li className="list-inline-item"><a href="//facebook.com"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>
-                            <li className="list-inline-item"><a href="//google.com"><FontAwesomeIcon className="icon" icon={faGooglePlusG} /></a></li>
-                            <li className="list-inline-item"><a href="//instagram.com"><FontAwesomeIcon className="icon" icon={faInstagram} /></a></li>
-                        </ul>
-                        <div className="mt-5">
-                            <h6>Call now</h6>
-                            <button className="btn btn-primary">+42424242424242</button>
-                        </div>
-                    </FooterCol>
-                </div>
-                <div className="copyRight text-center">
-                    <p>Copyright {(new Date()).getFullYear()} All Rights Reserved by Owali Shawon</p>
-                </div>
-            </div>
-        </footer >
-
+        <div>
+            <Box>
+                <h1 style={{
+                    color: "orange",
+                    textAlign: "center",
+                    marginTop: "-50px",
+                    marginBottom: "50px"
+                }}>
+                    Al Manar Group Intigsol
+                </h1>
+                <Container>
+                    <Row>
+                        <Column>
+                            <Heading>About Us</Heading>
+                            <FooterLink href="#">Aim</FooterLink>
+                            <FooterLink href="#">Vision</FooterLink>
+                            <FooterLink href="#">Testimonials</FooterLink>
+                        </Column>
+                        <Column>
+                            <Heading>SERVICES</Heading>
+                            <FooterLink href="#">Writing</FooterLink>
+                            <FooterLink href="#">Internships</FooterLink>
+                            <FooterLink href="#">Coding</FooterLink>
+                            <FooterLink href="#">Teaching</FooterLink>
+                        </Column>
+                        <Column>
+                            <Heading>Contact Us</Heading>
+                            <FooterLink href="#">Dhaka</FooterLink>
+                            <FooterLink href="#">Dhaka</FooterLink>
+                            <FooterLink href="#">Dhaka</FooterLink>
+                            <FooterLink href="#">Dhaka</FooterLink>
+                        </Column>
+                        <Column>
+                            <Heading>Social Media</Heading>
+                            <FooterLink href="#">
+                                <i className="fab fa-facebook-f">
+                                    <span style={{ marginLeft: "10px" }}>
+                                        Facebook
+                                    </span>
+                                </i>
+                            </FooterLink>
+                            <FooterLink href="#">
+                                <i className="fab fa-instagram">
+                                    <span style={{ marginLeft: "10px" }}>
+                                        Instagram
+                                    </span>
+                                </i>
+                            </FooterLink>
+                            <FooterLink href="#">
+                                <i className="fab fa-twitter">
+                                    <span style={{ marginLeft: "10px" }}>
+                                        Twitter
+                                    </span>
+                                </i>
+                            </FooterLink>
+                            <FooterLink href="#">
+                                <i className="fab fa-youtube">
+                                    <span style={{ marginLeft: "10px" }}>
+                                        Youtube
+                                    </span>
+                                </i>
+                            </FooterLink>
+                        </Column>
+                    </Row>
+                </Container>
+            </Box>
+        </div>
     );
 };
-
 export default Footer;
