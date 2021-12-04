@@ -10,10 +10,7 @@ const Home = () => {
                 alt="First slide"
                 height="750px"
             />
-
-            
-            
-            
+    
         </div>
     );
 };
