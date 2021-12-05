@@ -12,6 +12,15 @@ function App() {
       <Menu />
       <BrowserRouter>
         <Navbar />
+        <Routes>
+          {/* <Route path='/' exact component={Home} /> */}
+          <Route path='/about' element={<About/>} />
+          {/* <Route path='/events' component={Events} />
+          <Route path='/annual' component={AnnualReport} />
+          <Route path='/team' component={Teams} />
+          <Route path='/blogs' component={Blogs} />
+          <Route path='/sign-up' component={SignUp} /> */}
+        </Routes>
       </BrowserRouter>
     </div>
   );
