@@ -4,6 +4,8 @@ import Menu from './components/Menu/Menu';
 import Navbar from './components/NavBar/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './components/NavbarPages/about';
+import Home from './components/Home/Home';
+import MainHome from './components/MainHome/MainHome';
 
 
 function App() {
@@ -13,8 +15,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          {/* <Route path='/' exact component={Home} /> */}
-          <Route path='/about' element={<About/>} />
+          <Route path='/' exact element={<MainHome />} />
+          <Route path='/about' element={<About />} />
           {/* <Route path='/events' component={Events} />
           <Route path='/annual' component={AnnualReport} />
           <Route path='/team' component={Teams} />
@@ -22,6 +24,8 @@ function App() {
           <Route path='/sign-up' component={SignUp} /> */}
         </Routes>
       </BrowserRouter>
+
+      {/* <Home></Home> */}
     </div>
   );
 }

@@ -1,16 +1,19 @@
 import React from 'react';
-import { Carousel, Col, Container, Row } from 'react-bootstrap';
+import { Carousel, Col, Container, Row, Button } from 'react-bootstrap';
+import "./Home.css"
 
 const Home = () => {
+
     return (
-        <div className="">
-            <img
-                className="d-block w-100"
-                src="https://nikonrumors.com/wp-content/uploads/2014/03/Nikon-1-V3-sample-photo.jpg"
-                alt="First slide"
-                height="750px"
-            />
-    
+        <div>
+            <div className="bg-image"></div>
+
+            <div className="bg-text">
+                <p>SINCE 1990</p>
+                <h1>REAL SOLUTIONS!</h1>
+                <h2>Manufacturing Relationships Distributing Quality</h2>
+                <Button>Learn More</Button>
+            </div>
         </div>
     );
 };

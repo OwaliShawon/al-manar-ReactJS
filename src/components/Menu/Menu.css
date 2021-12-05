@@ -2,6 +2,7 @@
     background-color: #191d34;
     color: white;
     padding-top: 1em;
+    justify-content: space-around;
 }
 
 .justify-content-end{
