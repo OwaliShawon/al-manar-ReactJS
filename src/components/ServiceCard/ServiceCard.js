@@ -1,12 +1,13 @@
 import React from 'react';
 import { Col } from 'react-bootstrap';
-// import "./ServiceCard.css"
+import "./ServiceCard.css"
 // import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const ServiceCard = ( props ) => {
     const { title, imageUrl, body } = props.service;
     return (
-        <Col className="card-container col-4">
+        <div className="card-container col-md-4">
             <div className="image-container">
                 <img src={imageUrl} alt></img>
             </div>
@@ -19,7 +20,7 @@ const ServiceCard = ( props ) => {
                     <p>{body}</p>
                 </div>
             </div>
-        </Col>
+        </div>
     );
 };
 

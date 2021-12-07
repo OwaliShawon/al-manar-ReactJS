@@ -10,6 +10,7 @@ import Commitment from './components/Commitment/Commitment';
 import Ask from './components/Ask/Ask';
 import Projects from './components/Projects/Projects';
 import Employees from './components/Employees/Employees';
+import Footer from './components/Footer/Footer';
 
 
 
@@ -27,8 +28,6 @@ function App() {
           <Route path='/team' element={<Projects />} />*/}
         </Routes>
       </BrowserRouter>
-
-      {/* <Home></Home> */}
     </div>
   );
 }
