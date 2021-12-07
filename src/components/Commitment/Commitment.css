@@ -1,0 +1,12 @@
+.commitment{
+    padding: 100px;
+    background-color: aqua;
+}
+.text-righ {
+    /* text-align: left; */
+    /* align-items: left; */
+}
+
+.text-right h6,Button{
+    margin: 1em;
+}

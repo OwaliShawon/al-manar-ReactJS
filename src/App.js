@@ -6,6 +6,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './components/NavbarPages/about';
 import Home from './components/Home/Home';
 import MainHome from './components/MainHome/MainHome';
+import Commitment from './components/Commitment/Commitment';
+import Ask from './components/Ask/Ask';
+import Projects from './components/Projects/Projects';
+import Employees from './components/Employees/Employees';
+
 
 
 function App() {
@@ -16,12 +21,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' exact element={<MainHome />} />
-          <Route path='/about' element={<About />} />
-          {/* <Route path='/events' component={Events} />
-          <Route path='/annual' component={AnnualReport} />
-          <Route path='/team' component={Teams} />
-          <Route path='/blogs' component={Blogs} />
-          <Route path='/sign-up' component={SignUp} /> */}
+          {/*<Route path='/about' element={<About />} />
+          <Route path='/events' element={<Commitment />} />
+          <Route path='/annual' element={<Ask />} />
+          <Route path='/team' element={<Projects />} />*/}
         </Routes>
       </BrowserRouter>
 
