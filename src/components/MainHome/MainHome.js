@@ -14,8 +14,8 @@ const MainHome = () => {
             <Home></Home>
             <About></About>
             <Commitment></Commitment>
-            <Services></Services>
-            <Ask></Ask>
+            {/* <Services></Services> */}
+            {/* <Ask></Ask> */}
             <Projects></Projects>
             <Employees></Employees>
         </div>
