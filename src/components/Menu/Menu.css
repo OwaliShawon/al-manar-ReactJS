@@ -1,8 +1,11 @@
+.main-menu{
+    height: 5%;
+}
 .sub-menu{
-    background-color: #191d34;
-    color: white;
+    background-color: white;
     padding-top: 1em;
     justify-content: space-around;
+    height: 68em;
 }
 
 .justify-content-end{
@@ -12,6 +15,13 @@
 .logo-upper{
     padding: .5em;
     padding-top: .7em;
-    /* align-content: center; */
     text-align: center;
+}
+
+.address{
+    color: #fdb813;
+}
+
+.address:hover{
+    color: red;
 }

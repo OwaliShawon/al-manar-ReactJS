@@ -11,18 +11,19 @@ import Ask from './components/Ask/Ask';
 import Projects from './components/Projects/Projects';
 import Employees from './components/Employees/Employees';
 import Footer from './components/Footer/Footer';
+import HomeTop from './components/HomeTop/HomeTop';
 
 
 
 function App() {
   return (
     <div>
-      <Menu />
       <BrowserRouter>
         <Navbar />
         <Routes>
           <Route path='/' exact element={<MainHome />} />
-          {/*<Route path='/about' element={<About />} />
+          <Route path='/about' element={<About />} />
+          {/*
           <Route path='/events' element={<Commitment />} />
           <Route path='/annual' element={<Ask />} />
           <Route path='/team' element={<Projects />} />*/}
