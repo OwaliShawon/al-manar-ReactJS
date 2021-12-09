@@ -3,9 +3,9 @@ import "../Projects/Projects.scss"
 
 const Projects = () => {
     return (
-        <section>
+        <section data-aos="fade-left" data-aos-duration="3000">
             <h1 className='m-5'>OUR PROJECTS</h1>
-            <div class="container" data-aos="fade-down">
+            <div class="container">
                 <div class="card">
                     <figure class="card__thumb">
                         <img src="https://source.unsplash.com/75S9fpDJVdo/300x510" alt="Picture by Kyle Cottrell" class="card__image" />

@@ -6,8 +6,8 @@ import logo from "../../assets/intig.png"
 const About = () => {
     return (
         <section id='about'>
-            <h1>ABOUT US</h1>
-            <Container className="main">
+            <h1 data-aos="fade-up" data-aos-duration="2000">ABOUT US</h1>
+            <Container className="main" data-aos="fade-right" data-aos-duration="2000">
                 <Row className="service-row">
                     <Col className="service">
                         <div className="service-logo">

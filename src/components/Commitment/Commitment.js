@@ -7,8 +7,7 @@ import { Col, Row, Button } from 'react-bootstrap';
 
 const Commitment = () => {
     return (
-        <section id='commitment'>
-            <h1 className='pb-5'>OUR COMMITMEENT</h1>
+        <section id='commitment' data-aos="fade-up" data-aos-duration="3000">
             <div className="commitment">
                 <div className="container">
                     <Row className="commitment-row justify-content-center flex-column">

@@ -9,16 +9,16 @@ const NavTop = () => {
 
 
     return (
-        <div className="">
+        <div className="sticky-top">
             <Menu></Menu>
             {/* <!-- Navigation -->*/}
-            <Navbar bg="light" text="danger" expand="lg" >
+            <Navbar bg="light" expand="lg" >
                 <Container className="menu" >
                     {/* <Navbar.Brand href="#home">AL-MANAR GROUP</Navbar.Brand>*/}
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="nav-items mx-auto pt-2" variant="tabs" >
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="#link1">Link</Nav.Link>
                             <Nav.Link href="#link2">Link</Nav.Link>
                             <Nav.Link href="#link3">Link</Nav.Link>
