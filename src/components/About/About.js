@@ -5,41 +5,41 @@ import logo from "../../assets/intig.png"
 
 const About = () => {
     return (
-        <div>
+        <section id='about'>
+            <h1>ABOUT US</h1>
             <Container className="main">
                 <Row className="service-row">
-                    <Col md="3" className="service">
+                    <Col className="service">
                         <div className="service-logo">
                             <img src={logo}></img>
                             <hr className="line"></hr>
                         </div>
                         <h4>ADVANCE TECHNOLOGY</h4>
-                        <p>fermentum justo ultrices vel. Vivamus consectetur eleifend magna nec venenatis. Mauris mattis velit sit amet odio condimentum dapibus. Suspendisse efficitur sapien condimentum nibh pretium tempus. Suspendisse finibus facilisis turpis at aliquet. Donec pulvinar tortor sed rhoncus faucibus. Donec mauris nibh, tempor ac sollicitudin nec, interdum a sem. </p>
+                        <p>eleifend magna nec venenatis. Mauris mattis velit sit amet odio condimentum dapibus. Suspendisse efficitur sapien condimentum nibh pretium tempus. Suspendisse finibus facilisis turpis at aliquet. Donec pulvinar tortor sed rhoncus faucibus. Donec mauris nibh, tempor ac sollicitudin nec, interdum a sem. </p>
                         {/* <div className="shadowOne"></div>
                         <div className="shadowTwo"></div> */}
                     </Col>
 
-                    <Col md="3" className="service">
+                    <Col className="service">
                         <div className="service-logo">
                             <img src={logo}></img>
                         </div>
                         <h4>ADVANCE TECHNOLOGY</h4>
-                        <p> justo ultrices vel. Vivamus consectetur eleifend magna nec venenatis. Mauris mattis velit sit amet odio condimentum dapibus. Suspendisse efficitur sapien condimentum nibh pretium tempus. Suspendisse finibus facilisis turpis at aliquet. Donec pulvinar tortor sed rhoncus faucibus. Donec mauris nibh, tempor ac sollicitudin nec, interdum a sem. </p>
+                        <p> nec venenatis. Mauris mattis velit sit amet odio condimentum dapibus. Suspendisse efficitur sapien condimentum nibh pretium tempus. Suspendisse finibus facilisis turpis at aliquet. Donec pulvinar tortor sed rhoncus faucibus. Donec mauris nibh, tempor ac sollicitudin nec, interdum a sem. </p>
                         {/* <div className="shadowOne"></div>
                         <div className="shadowTwo"></div> */}
                     </Col>
 
-                    <Col md="3" className="service">
+                    <Col className="service">
                         <div className="service-logo">
                             <img src={logo}></img>
                         </div>
                         <h4>ADVANCE TECHNOLOGY</h4>
-                        <p> justo ultrices vel. Vivamus consectetur eleifend magna nec venenatis. Mauris mattis velit sit amet odio condimentum dapibus. Suspendisse efficitur sapien condimentum nibh pretium tempus. Suspendisse finibus facilisis turpis at aliquet. Donec pulvinar tortor sed rhoncus faucibus. Donec mauris nibh, tempor ac sollicitudin nec, interdum a sem. </p>
+                        <p> magna nec venenatis. Mauris mattis velit sit amet odio condimentum dapibus. Suspendisse efficitur sapien condimentum nibh pretium tempus. Suspendisse finibus facilisis turpis at aliquet. Donec pulvinar tortor sed rhoncus faucibus. Donec mauris nibh, tempor ac sollicitudin nec, interdum a sem. </p>
                     </Col>
                 </Row>
-
             </Container>
-        </div>
+        </section>
     );
 };
 

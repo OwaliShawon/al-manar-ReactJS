@@ -5,7 +5,7 @@ import "./Menu.css"
 import { faPhone, faAt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faGit, faGithub, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-import logo from "../../assets/al-manar.png"
+import logo from "../../assets/al-manar-small.png"
 
 const Menu = () => {
   return (
@@ -22,7 +22,7 @@ const Menu = () => {
             </address>
           </Col>
 
-          <Col md="4" className="address-img"><img src={logo}></img></Col>
+          <Col md="4" className="address-img"><img src={logo}  height="80px"></img></Col>
 
           <Col md="4">
           <a href="#" className="address"><FontAwesomeIcon icon={faFacebook}/></a>

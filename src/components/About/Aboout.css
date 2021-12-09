@@ -1,32 +1,32 @@
-h1{
-    text-align: center;
-    /* margin: 50px auto 120px; */
-    /* color: #fff; */
+h1 {
+  text-align: center;
+  /* margin: 50px auto 120px; */
+  /* color: #fff; */
 }
 
-.service-row{
-    /* align-items: ; */
+.service-row {
+  /* align-items: ; */
 }
 
-.service{
-    height: 500px;
-    background: white;
-    padding: 30px;
-    margin: 3em;
-    /* border-radius: 30px; */
-    /* position: absolute; */
-    bottom: 0;
-    box-shadow: 0 0 20 10;
-    text-align: center;
-    border: 1px solid #eaebed;
-    border-style: solid;
-    /* border-color: red; */
-    /* border-width: 1px; */
+.service {
+  height: 500px;
+  background: white;
+  padding: 30px;
+  margin: 3em;
+  /* border-radius: 30px; */
+  /* position: absolute; */
+  bottom: 0;
+  box-shadow: 0 0 20 10;
+  text-align: center;
+  border: 1px solid #eaebed;
+  border-style: solid;
+  /* border-color: red; */
+  /* border-width: 1px; */
 }
 
-.service:hover{
-    background: #fd7e14;
-    color: white;
+.service:hover {
+  background: #fd7e14;
+  color: white;
 }
 
 /* .service-logo{
@@ -39,39 +39,39 @@ h1{
 
 } */
 
-.service-logo img{
-    width: 50px;
-    margin-top: 20px;
+.service-logo img {
+  width: 50px;
+  margin-top: 20px;
 }
 
-.service h4{
-    height: 35px;
-    width: 80%;
-    /* background: #fff; */
-    margin: 50px auto;
-    position: relative;
-    z-index: 1;
+.service h4 {
+  height: 35px;
+  width: 80%;
+  /* background: #fff; */
+  margin: 50px auto;
+  position: relative;
+  z-index: 1;
 }
 
-.service h4::after{
-    content: '';
-    width: 40px;
-    height: 30px;
-    background: linear-gradient(to right, #fff, #007bff);
-    position: absolute;
-    right: -5px;
-    top: -5px;
-    z-index: -1;
+.service h4::after {
+  content: "";
+  width: 40px;
+  height: 30px;
+  background: linear-gradient(to right, #fff, #007bff);
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: -1;
 }
-.service h4::before{
-    content: '';
-    width: 40px;
-    height: 30px;
-    background: linear-gradient(to right, rgb(146, 131, 131), #08396d);
-    position: absolute;
-    left: -5px;
-    bottom: -5px;
-    z-index: -1;
+.service h4::before {
+  content: "";
+  width: 40px;
+  height: 30px;
+  background: linear-gradient(to right, rgb(146, 131, 131), #08396d);
+  position: absolute;
+  left: -5px;
+  bottom: -5px;
+  z-index: -1;
 }
 
 /* .shadowOne{
@@ -102,6 +102,6 @@ h1{
     transform: translateY(-25px);
 } */
 
-.line{
-    color:#007bff;
+.line {
+  color: #007bff;
 }

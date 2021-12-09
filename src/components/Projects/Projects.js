@@ -4,7 +4,7 @@ import "../Projects/Projects.scss"
 const Projects = () => {
     return (
         <div>
-        <div class="container">
+        <div class="container" data-aos="fade-down">
         <div class="card">
             <figure class="card__thumb">
                 <img src="https://source.unsplash.com/75S9fpDJVdo/300x510" alt="Picture by Kyle Cottrell" class="card__image"/>

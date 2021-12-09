@@ -7,19 +7,18 @@ import Services from '../Services/Services'
 import Ask from '../Ask/Ask';
 import Projects from '../Projects/Projects';
 import Employees from '../Employees/Employees';
-import HomeTop from '../HomeTop/HomeTop';
+import NavTop from '../NavTop/NavTop';
 
 const MainHome = () => {
     return (
         <div>
-            {/* <Home></Home>*/}
-            {/* <HomeTop></HomeTop>*/}
-            {/*<About></About>*/}
+            <Home></Home>
+            <About></About>
             {/*<Commitment></Commitment>*/}
             {/* <Services></Services> */}
             {/* <Ask></Ask> */}
-            <Projects></Projects>
-            <Employees></Employees>
+            {/*<Projects></Projects>*/}
+            {/*<Employees></Employees>*/}
         </div>
     );
 };
