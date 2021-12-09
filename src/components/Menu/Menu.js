@@ -22,7 +22,7 @@ const Menu = () => {
             </address>
           </Col>
 
-          <Col md="4" className="address-img"><img src={logo}  height="80px"></img></Col>
+          <Col md="4" className="address-img"><img src={logo}  height="10px"></img></Col>
 
           <Col md="4">
           <a href="#" className="address"><FontAwesomeIcon icon={faFacebook}/></a>

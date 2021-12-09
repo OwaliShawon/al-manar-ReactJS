@@ -13,9 +13,10 @@ const Home = () => {
                 <div className="row">
                     <div className="col-10 mx-auto">
                         <div className='row'>
-                            <div data-aos="fade-right" data-aos-duration="2000" className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                                <h1>Hello<strong className='brand-name'> AL Manar Group</strong></h1>
-                                <h2 className="my-3">
+                            <div data-aos="fade-right" data-aos-duration="2000" className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column text-left">
+                                <h1>Hello <br></br>
+                                    <strong className='brand-name'> AL Manar Group</strong></h1>
+                                <h2 className="mt-3">
                                     We are the team of talented people
                                 </h2>
 

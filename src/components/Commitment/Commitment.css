@@ -1,12 +1,10 @@
-.commitment{
-    padding: 100px;
-    background-color: aqua;
-}
-.text-righ {
-    /* text-align: left; */
-    /* align-items: left; */
+.commitment {
+  padding: 100px;
+  background-color: whitesmoke;
+  letter-spacing: 4px;
 }
 
-.text-right h6,Button{
-    margin: 1em;
+.text-right h6,
+Button {
+  margin: 1em;
 }

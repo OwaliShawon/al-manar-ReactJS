@@ -14,10 +14,11 @@ const MainHome = () => {
         <div>
             <Home></Home>
             <About></About>
-            {/*<Commitment></Commitment>*/}
-            {/* <Services></Services> */}
-            {/* <Ask></Ask> */}
-            {/*<Projects></Projects>*/}
+            <Commitment></Commitment>
+            <Projects></Projects>
+            {/*<Services></Services> */}
+            <Ask></Ask>
+            {/**/}
             {/*<Employees></Employees>*/}
         </div>
     );

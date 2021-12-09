@@ -1,53 +1,67 @@
 import React from 'react';
-import "../Ask/Ask.css"
+import Accordion from "./Accordion";
+
+import "../Ask/scss/main.scss";
+
+// import "../scss/main.scss";
+
+import illustration__box from "../Ask/images/illustration-box-desktop.svg";
+import illustration__woman_desktop from "../Ask/images/illustration-woman-online-desktop.svg";
+import illustration__woman_mobile from "../Ask/images/illustration-woman-online-mobile.svg";
 
 const Ask = () => {
-    var accItem = document.getElementsByClassName('accordionItem');
-    var accHD = document.getElementsByClassName('accordionItemHeading');
-    for (i = 0; i < accHD.length; i++) {
-        accHD[i].addEventListener('click', toggleItem, false);
-    }
-    
-    var i;
-    function toggleItem() {
-        var itemClass = this.parentNode.className;
-        for (i = 0; i < accItem.length; i++) {
-            accItem[i].className = 'accordionItem close';
-        }
-        if (itemClass == 'accordionItem close') {
-            this.parentNode.className = 'accordionItem open';
-        }
-    }
+
+    const questionsAnswers = [
+        {
+            question: "How many team members can I invite?",
+            answer:
+                "You can invite up to 2 additional users on the Free plan. There is no limit on team members for the Premium plan.",
+        },
+        {
+            question: "What is the maximum file upload size?",
+            answer:
+                "No more than 2GB. All files in your account must fit your allotted storage space.",
+        },
+        {
+            question: "How do I reset my password?",
+            answer: `Click “Forgot password” from the login page or “Change password” from your profile page. A reset link will be emailed to you.`,
+        },
+        {
+            question: "Can I cancel my subscription?",
+            answer: `Yes! Send us a message and we’ll process your request no questions asked.`,
+        },
+        {
+            question: "Do you provide additional support?",
+            answer: `Chat and email support is available 24/7. Phone lines are open during normal business hours.`,
+        },
+    ];
+
     return (
-        <div>
-            <div class="accordionWrapper">
-                <div class="accordionItem open">
-                    <h2 class="accordionItemHeading">Accordions Menu HTML CSS <span>+</span></h2>
+        <section>
+            <div className="container my-5">
+                <div className="component">
+                    <div className="illustration">
+                        <img
+                            src={illustration__box}
+                            alt="illustration with box"
+                            className="illustration__box"
+                        />
 
-                    <div class="accordionItemContent">
-                        <p>This simple accordion degrades gracefully in browsers that don't support JavaScript or CSS.</p>
+                        <img
+                            className="illustration__woman-desktop"
+                            src={illustration__woman_desktop}
+                            alt="illustration with woman"
+                        />
+                        <img
+                            className="illustration__woman-mobile"
+                            src={illustration__woman_mobile}
+                            alt="illustration with woman"
+                        />
                     </div>
-
+                    <Accordion questionsAnswers={questionsAnswers} />
                 </div>
-
-                <div class="accordionItem close">
-                    <h2 class="accordionItemHeading">Accordion Menu Javascript  <span>+</span></h2>
-
-                    <div class="accordionItemContent">
-                        <p>A JavaScript accordion is made up of a number of expandable/collapsible items. Only one item is ever shown at a time.</p>
-                    </div>
-                </div>
-
-                <div class="accordionItem close">
-                    <h2 class="accordionItemHeading">Accordion Menu Jquery <span>+</span></h2>
-
-                    <div class="accordionItemContent">
-                        <p>Click an accordion item's heading to expand it. To collapse the item, click it again, or click another item heading.</p>
-                    </div>
-                </div>
-
             </div>
-        </div>
+        </section>
     );
 };
 
