@@ -8,12 +8,12 @@ const Home = () => {
 
 
     return (
-        <section id="header" className="d-flex align-items-center" data-aos="fade-up">
+        <section id="header" className="d-flex align-items-start" data-aos="fade-up">
             <div className="container-fluid nav-bg">
                 <div className="row">
                     <div className="col-10 mx-auto">
                         <div className='row'>
-                            <div data-aos="fade-right" data-aos-duration="2000" className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column text-left">
+                            <div data-aos="fade-right" data-aos-duration="2000" className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column text-left align-items-center">
                                 <h1>Hello <br></br>
                                     <strong className='brand-name'> AL Manar Group</strong></h1>
                                 <h2 className="mt-3">

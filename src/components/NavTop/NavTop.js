@@ -19,7 +19,7 @@ const NavTop = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-tog" />
 
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="nav-items mx-auto pt-2" variant="tabs" >
+                        <Nav className="nav-items mx-auto pt-2"  variant="tabs" >
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="#link1">Link</Nav.Link>
                             <Nav.Link href="#link2">Link</Nav.Link>
