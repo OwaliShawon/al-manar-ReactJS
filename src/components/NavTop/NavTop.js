@@ -12,10 +12,12 @@ const NavTop = () => {
         <div className="sticky-top">
             <Menu></Menu>
             {/* <!-- Navigation -->*/}
-            <Navbar bg="light" expand="lg" >
+            <Navbar bg="light" expand="lg" className="navbar">
                 <Container className="menu" >
                     {/* <Navbar.Brand href="#home">AL-MANAR GROUP</Navbar.Brand>*/}
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-tog" />
+
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="nav-items mx-auto pt-2" variant="tabs" >
                             <Nav.Link href="/">Home</Nav.Link>
