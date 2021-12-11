@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Commitment.css"
 import logo from "../../assets/al-manar.png"
+import commitment from "../../assets/commitment-img.svg"
 
 import { Col, Row, Button } from 'react-bootstrap';
 
@@ -12,7 +13,7 @@ const Commitment = () => {
                 <div className="container">
                     <Row className="commitment-row justify-content-center flex-column">
                         <Col className="img-left col-md-6">
-                            <img src={logo}></img>
+                            <img src={commitment}></img>
                         </Col>
                         <Col className="text-right col-md-6">
                             <h1>We Are Committed

@@ -37,7 +37,7 @@ const Ask = () => {
     ];
 
     return (
-        <section>
+        <section className="m-5 p-5">
             <div className="container my-5">
                 <div className="component">
                     <div className="illustration">

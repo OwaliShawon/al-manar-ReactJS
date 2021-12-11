@@ -19,7 +19,7 @@ const MainHome = () => {
             {/*<Services></Services> */}
             <Ask></Ask>
             {/**/}
-            {/*<Employees></Employees>*/}
+            <Employees></Employees>
         </div>
     );
 };
