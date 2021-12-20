@@ -9,7 +9,6 @@ import Ask from './components/Ask/Ask';
 import Projects from './components/Projects/Projects';
 import Employees from './components/Employees/Employees';
 import Footer from './components/Footer/Footer';
-import HomeTop from './components/HomeTop/HomeTop';
 import Nav from './components/NavTop/NavTop';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import NavTop from './components/NavTop/NavTop';

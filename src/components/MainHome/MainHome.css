@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px) {
+    .extra-margin {
+        margin-top: 100%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .extra-margin {
+        margin-top: 10%;
+    }
+}

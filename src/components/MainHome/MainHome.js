@@ -8,11 +8,13 @@ import Ask from '../Ask/Ask';
 import Projects from '../Projects/Projects';
 import Employees from '../Employees/Employees';
 import NavTop from '../NavTop/NavTop';
+import "./MainHome.css"
 
 const MainHome = () => {
     return (
         <div>
             <Home></Home>
+            <div className='extra-margin'></div>
             <About></About>
             <Commitment></Commitment>
             <Projects></Projects>

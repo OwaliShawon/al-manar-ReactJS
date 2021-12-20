@@ -1,69 +1,37 @@
 #header {
-  width: 100%;
-  height: 80vh;
-  margin-top: 70px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../assets/bg-office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    padding-top: 160px;
 }
 
 #header h1 {
-  margin: 0 0 10px 0;
-  font-size: 48px;
-  color: #2f3292;
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    color: #2f3292;
 }
 
 #header .brand-name {
-  color: orange;
+    color: orange;
 }
 
 #header h2 {
-  color: #a40e12;
-  font-size: 24px;
+    color: black;
+    font-size: 24px;
 }
 
 #header .btn-get-started {
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  color: orange;
-  border: 2px solid orange;
-  text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: orange;
+    border: 2px solid orange;
+    text-decoration: none;
 }
-
-#header .animated {
-  animation: up-down 3s ease-in-out infinite alternate-reverse both;
-}
-
-@keyframes up-down {
-  0% {
-    transform: translateY(50px);
-  }
-  100% {
-    transform: translateY(-50px);
-  }
-}
-
-/* .container {
-  position: relative;
-  text-align: center;
-  color: black;
-}
-
-.image {
-  width: 100%;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-}
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.centered Button{
-    margin: 5%;
-    padding: 2%;
-} */
