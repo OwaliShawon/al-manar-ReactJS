@@ -33,7 +33,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-10 mx-auto">
                             <div className='row'>
-                                <div data-aos="fade-right" data-aos-duration="2000" className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column  align-items-start">
+                                <div  data-aos="fade-right" data-aos-duration="2000" style={{paddingBottom: "20vh"}} className=" col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column  align-items-start">
                                     <h1 className='text-left'>Welcome To <br></br>
                                         <strong className='brand-name'> AL-MANAR GROUP</strong></h1>
                                     <h2 className="mt-lg-3 text-justify">
@@ -47,8 +47,8 @@ const Home = () => {
 
                                 <div className='col-md-6 order-md-2 col-lg-6 order-1 order-lg-2 header-img'>
                                     <div className='col'>
-                                        <img src={bg} className=" img-fluid" alt='home img' style={{ width: "35rem" }}></img>
-                                        <small className='row' style={{ color: "white" }}>121, Ottawan Centre, 5 New Eskaton Road, Dhaka 1000</small>
+                                        <img src={bg} className=" img-fluid" alt='home img' style={{ width: "35rem", marginTop: "20vh" }}></img>
+                                        <small className='row' style={{ color: "orange" }}>121, Ottawan Centre, 5 New Eskaton Road, Dhaka 1000</small>
                                     </div>
                                 </div>
                             </div>
