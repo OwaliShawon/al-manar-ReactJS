@@ -15,6 +15,7 @@ import NavTop from './components/NavTop/NavTop';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import Navigation from './components/Navigation/Navigation';
 
 
 
@@ -27,7 +28,6 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        {/* <NavTop></NavTop> */}
         <Routes>
           <Route path='/' exact element={<MainHome />} />
           <Route path='/about' element={<Employees />} />
