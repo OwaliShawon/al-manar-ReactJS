@@ -12,26 +12,26 @@ const Menu = () => {
     <div className="main-menu">
       <Container fluid className="sub-menu">
         <Row className="logo-upper">
-      
+
 
           <Col md="4">
             <address>
-              <a href="tel:+13115552368" className="address"><FontAwesomeIcon icon={faPhone}/>  (311) 555-2368 </a>
+              <a href="tel:+13115552368" className="address"><FontAwesomeIcon icon={faPhone} />  (311) 555-2368 </a>
               &nbsp; &nbsp;
-              <a href="mailto:jim@rock.com" className="address"><FontAwesomeIcon icon={faAt}/>  jim@rock.com</a>
+              <a href="mailto:jim@rock.com" className="address"><FontAwesomeIcon icon={faAt} />  jim@rock.com</a>
             </address>
           </Col>
 
-          <Col md="4" className="address-img"><img src={logo}  height="40px"></img></Col>
+          <Col md="4" className="address-img"><img src={logo} height="40px" href="/"></img></Col>
 
           <Col md="4">
-          <a href="#" className="address"><FontAwesomeIcon icon={faFacebook}/></a>
+            <a href="#" className="address"><FontAwesomeIcon icon={faFacebook} /></a>
             &nbsp; &nbsp;
-            <a href="#" className="address"><FontAwesomeIcon icon={faTwitter}/></a>
+            <a href="#" className="address"><FontAwesomeIcon icon={faTwitter} /></a>
             &nbsp; &nbsp;
-            <a href="#" className="address"><FontAwesomeIcon icon={faLinkedin}/></a>
+            <a href="#" className="address"><FontAwesomeIcon icon={faLinkedin} /></a>
             &nbsp; &nbsp;
-            <a href="#" className="address"><FontAwesomeIcon icon={faGithub}/></a>
+            <a href="#" className="address"><FontAwesomeIcon icon={faGithub} /></a>
           </Col>
         </Row>
       </Container>

@@ -5,17 +5,22 @@
 
 .menu {
   padding-top: 3em;
+  /* background-color: orange !important; */
 }
 
 .nav-link {
   font-family: "Roboto", sans-serif;
-  color: rgb(218, 0, 0) !important ;
+  color: blue !important ;
   padding: 15px !important;
+  padding-right: 50px !important;
+  padding-left: 50px !important;
 }
 
 .nav-items {
   color: tomato;
+  justify-content: center;
 }
+
 .nav-link {
   color: tomato;
 }
