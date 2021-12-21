@@ -36,6 +36,7 @@ function App() {
           <Route path='/annual' element={<Ask />} />
           <Route path='/team' element={<Projects />} />*/}
         </Routes>
+        {/* <Footer></Footer> */}
       </BrowserRouter>
     </div>
   );

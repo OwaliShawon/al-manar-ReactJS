@@ -9,19 +9,21 @@ import Projects from '../Projects/Projects';
 import Employees from '../Employees/Employees';
 import NavTop from '../NavTop/NavTop';
 import "./MainHome.css"
+import CompanyDetails from '../CompanyDetails/CompanyDetails';
 
 const MainHome = () => {
     return (
         <div>
             <Home></Home>
             <div className='extra-margin'></div>
-            <About></About>
-            <Commitment></Commitment>
-            <Projects></Projects>
+            <CompanyDetails></CompanyDetails>
+            {/* <About></About> */}
+            {/* <Commitment></Commitment> */}
+            {/* <Projects></Projects> */}
             {/*<Services></Services> */}
-            <Ask></Ask>
+            {/* <Ask></Ask> */}
             {/**/}
-            <Employees></Employees>
+            {/* <Employees></Employees> */}
         </div>
     );
 };
