@@ -19,7 +19,7 @@ const CompanyDetails = () => {
                     <div className='col' style={{ padding: '70px' }}>
                         <p>SINCE 2020</p>
                         <h3 style={{ fontSize: "34px" }}>Manufactuer Company </h3>
-                        <p>Al-Manar Group believes in self-branding for each and every consumer. In here the group provides all the necessary things to promote the customer along with their sister concerns. The group is committed to each & every consumer for making their bright future…</p>
+                        <p className='text-justify'>Al-Manar Group believes in self-branding for each and every consumer. In here the group provides all the necessary things to promote the customer along with their sister concerns. The group is committed to each & every consumer for making their bright future…</p>
                         <div className="mt-3">
                             <Button variant="outline-warning" href="/">Know More</Button>
                         </div>

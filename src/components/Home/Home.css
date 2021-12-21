@@ -35,7 +35,7 @@
   background-size:cover;
     width: 100%;
     height: 80vh;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     
 }
 
@@ -43,6 +43,7 @@
   .header-dark {
     padding-bottom:120px;
     padding-top: 30px;
+    /* padding-left: 10%; */
   }
 }
 
@@ -184,7 +185,7 @@
 }
 
 .header-dark .hero {
-  margin-top:60px;
+  /* margin-top:60px; */
 }
 
 @media (min-width:768px) {
