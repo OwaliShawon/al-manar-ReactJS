@@ -1,11 +1,7 @@
 import React from "react";
 import {
-    Box,
-    Container,
-    Row,
-    Column,
-    FooterLink,
-    Heading,
+    Box, Column, Container, FooterLink,
+    Heading, Row
 } from "./FooterStyles";
 
 const Footer = () => {
@@ -18,7 +14,7 @@ const Footer = () => {
                     marginTop: "-50px",
                     marginBottom: "50px"
                 }}>
-                    Al Manar Group Intigsol
+                    Al-Manar Group
                 </h1>
                 <Container>
                     <Row>
