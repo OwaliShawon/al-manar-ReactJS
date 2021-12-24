@@ -1,10 +1,11 @@
 .commitment {
   padding: 100px;
   background-color: whitesmoke;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
 }
 
 .text-right h6,
 Button {
   margin: 1em;
 }
+

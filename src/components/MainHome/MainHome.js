@@ -1,15 +1,9 @@
 import React from 'react';
-import Commitment from '../Commitment/Commitment';
-import Home from '../Home/Home'
-import About from '../About/About'
-// import Commitment from '../Commitment/Commitment'
-import Services from '../Services/Services'
-import Ask from '../Ask/Ask';
-import Projects from '../Projects/Projects';
-import Employees from '../Employees/Employees';
-import NavTop from '../NavTop/NavTop';
-import "./MainHome.css"
+import Commitment from "../../components/Commitment/Commitment";
+import About from '../About/About';
 import CompanyDetails from '../CompanyDetails/CompanyDetails';
+import Home from '../Home/Home';
+import "./MainHome.css";
 
 const MainHome = () => {
     return (
@@ -17,8 +11,8 @@ const MainHome = () => {
             <Home></Home>
             <div className='extra-margin'></div>
             <CompanyDetails></CompanyDetails>
-            {/* <About></About> */}
-            {/* <Commitment></Commitment> */}
+            <About></About>
+            <Commitment></Commitment>
             {/* <Projects></Projects> */}
             {/*<Services></Services> */}
             {/* <Ask></Ask> */}
