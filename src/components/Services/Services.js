@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import logo from "../../assets/intig.png"
 import alLogo from "../../assets/al-manar.png"
+import ServicesItem from '../SevicesItem/ServicesItem';
 
 const Services = () => {
     const services = [
@@ -14,38 +15,29 @@ const Services = () => {
             des: 'TMAC helps you to make your brand larger than others.'
         },
         {
-            title: '',
-            des: ''
+            title: 'Food & Beverage',
+            des: 'Family Food serves you the best quality to make you and your family healthy.'
         },
         {
-            title: '',
-            des: ''
+            title: 'Digital Marketing',
+            des: 'TMAC promotes your brand to the digital world, we are here to serve you best.'
         },
         {
-            title: '',
-            des: ''
+            title: 'Auto Mobile',
+            des: 'Al-Manar Auto Mobile import the best quality parts of you vehicles.'
         },
         {
-            title: '',
-            des: ''
+            title: 'Cosmetics & Toiletries',
+            des: 'Our product makes your life neat and clean.'
         },
-
     ];
+
     return (
         <section>
-            <h1>Services</h1>
-            <div className='container d-flex justify-content-center'>
-                <div className='row'>
-                    <div class="card text-center">
-                        <div class="card-header">
-                            <img src={logo} className='w-50'></img>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Software Development</h5>
-                            <p class="card-text">We are Intigsol Limited to serve you the very best software solution.</p>
-                            {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
-                        </div>
-                    </div>
+            <h1>Our Services</h1>
+            <div className='d-flex justify-content-center'>
+                <div className='row container'>
+                    {services.map((service) => <ServicesItem service={service}></ServicesItem>)}
                 </div>
             </div>
 
