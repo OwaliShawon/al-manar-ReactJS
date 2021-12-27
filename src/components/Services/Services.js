@@ -1,26 +1,54 @@
 import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
-import logo from "../../assets/al-manar.png"
+import logo from "../../assets/intig.png"
+import alLogo from "../../assets/al-manar.png"
 
 const Services = () => {
+    const services = [
+        {
+            title: 'Software Development',
+            des: 'We are Intigsol Limited to serve you the very best software solution.'
+        },
+        {
+            title: 'Graphics & Animation',
+            des: 'TMAC helps you to make your brand larger than others.'
+        },
+        {
+            title: '',
+            des: ''
+        },
+        {
+            title: '',
+            des: ''
+        },
+        {
+            title: '',
+            des: ''
+        },
+        {
+            title: '',
+            des: ''
+        },
+
+    ];
     return (
         <section>
-            <h1 className='p-5'>OUR SERVICES</h1>
-            <Row xs={1} md={1} className="g-4">
-                <Col>
-                    <Card className="bg-dark text-white">
-                        <Card.Img src={logo} alt="Card image" />
-                        <Card.ImgOverlay>
-                            <Card.Title>Card title</Card.Title>
-                            <Card.Text>
-                                This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.
-                            </Card.Text>
-                            <Card.Text>Last updated 3 mins ago</Card.Text>
-                        </Card.ImgOverlay>
-                    </Card>
-                </Col>
-            </Row>
+            <h1>Services</h1>
+            <div className='container d-flex justify-content-center'>
+                <div className='row'>
+                    <div class="card text-center">
+                        <div class="card-header">
+                            <img src={logo} className='w-50'></img>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Software Development</h5>
+                            <p class="card-text">We are Intigsol Limited to serve you the very best software solution.</p>
+                            {/* <a href="#" class="btn btn-primary">Go somewhere</a> */}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
     );
 };

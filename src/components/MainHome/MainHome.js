@@ -1,8 +1,10 @@
 import React from 'react';
 import Commitment from "../../components/Commitment/Commitment";
 import About from '../About/About';
+import Companies from '../Companies/Comapnies';
 import CompanyDetails from '../CompanyDetails/CompanyDetails';
 import Home from '../Home/Home';
+import Services from '../Services/Services';
 import Ask from './../Ask/Ask';
 import Employees from './../Employees/Employees';
 import Footer from './../Footer/Footer';
@@ -15,10 +17,11 @@ const MainHome = () => {
             <Home></Home>
             <div className='extra-margin'></div>
             <CompanyDetails></CompanyDetails>
+            <Companies></Companies>
             <About></About>
             <Commitment></Commitment>
             <Projects></Projects>
-            {/* <Services></Services> */}
+            <Services></Services>
             <Ask></Ask>
             {/**/}
             <Employees></Employees>
