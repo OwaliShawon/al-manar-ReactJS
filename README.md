@@ -1,7 +1,19 @@
 # AL-MANAR GROUP
 
 
-### Technologies Used in: 
+
+### Technologies
+## Animate CSS
+## AOS
+## SASS
+## Bootstrap
+## Font Awesome
+## React Bootstrap
+## React
+## React Router
+
+
+### Features
 
 
 
