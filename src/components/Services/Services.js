@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card, Col, Row } from 'react-bootstrap';
 import logo from "../../assets/intig.png"
 import alLogo from "../../assets/al-manar.png"
 import ServicesItem from '../SevicesItem/ServicesItem';

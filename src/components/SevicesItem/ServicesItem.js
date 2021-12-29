@@ -2,7 +2,7 @@ import React from 'react';
 import logo from "../../assets/intig.png"
 
 const ServicesItem = ({ service }) => {
-    
+
     return (
         <div class="card text-center m-3">
             <div class="card-header">

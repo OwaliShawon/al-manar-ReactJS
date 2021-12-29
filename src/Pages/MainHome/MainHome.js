@@ -1,4 +1,5 @@
 import React from 'react';
+import Testimonial from '../../components/Testimonial/Testimonial';
 import About from './../../components/About/About';
 import Ask from './../../components/Ask/Ask';
 import Commitment from './../../components/Commitment/Commitment';
@@ -22,6 +23,7 @@ const MainHome = () => {
             <Commitment></Commitment>
             <Projects></Projects>
             <Services></Services>
+            <Testimonial></Testimonial>
             <Ask></Ask>
             <Employees></Employees>
         </div>
