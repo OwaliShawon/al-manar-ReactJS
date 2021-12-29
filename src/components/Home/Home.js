@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
-import { Carousel, Col, Container, Row, Button } from 'react-bootstrap';
-import "./Home.css"
-import bg from "../../assets/front-gate.jpeg"
-import NavTop from '../NavTop/NavTop';
+import React from 'react';
+import { Button } from 'react-bootstrap';
+import bg from "../../assets/front-gate.jpeg";
+import "./Home.css";
 
 
 

@@ -1,16 +1,15 @@
-import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
+import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import "../NavTop/NavTop.css"
 import Menu from '../Menu/Menu';
-import { gsap } from "gsap";
+import "./NavTop.css";
 
 const NavTop = () => {
 
 
     return (
         <div className="sticky-top">
-            <Menu></Menu> 
+            <Menu></Menu>
 
             {/* <!-- Navigation -->*/}
             <Navbar bg="light" expand="lg" className="navbar">
@@ -20,7 +19,7 @@ const NavTop = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-tog" />
 
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="nav-items mx-auto pt-2"  variant="tabs" >
+                        <Nav className="nav-items mx-auto pt-2" variant="tabs" >
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="#">Action</Nav.Link>
                             <Nav.Link href="#link2">Link</Nav.Link>
