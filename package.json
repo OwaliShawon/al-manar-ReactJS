@@ -15,6 +15,7 @@
     "aos": "^2.3.4",
     "bootstrap": "^4.6.0",
     "custom-react-accordion": "^1.0.4",
+    "emailjs-com": "^3.2.0",
     "font-awesome": "^4.7.0",
     "gsap": "^3.8.0",
     "history": "^5.1.0",
