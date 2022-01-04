@@ -1,9 +1,10 @@
 import React from 'react';
 import intigsollogo from '../../assets/intig.png';
+import "./Companies.css"
 
 const Companies = () => {
     return (
-        <section>
+        <section id="sister-concern">
             <h1>Our Sister Concern</h1>
             <div class="mt-5 container-fluid">
                 <div class="row d-flex justify-content-center">

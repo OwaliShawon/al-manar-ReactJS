@@ -8,14 +8,6 @@ const Footer = () => {
     return (
         <div>
             <Box>
-                <h1 style={{
-                    color: "orange",
-                    textAlign: "center",
-                    marginTop: "-50px",
-                    marginBottom: "50px"
-                }}>
-                    Al-Manar Group
-                </h1>
                 <Container>
                     <Row>
                         <Column>

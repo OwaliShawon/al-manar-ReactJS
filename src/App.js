@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 import Footer from './components/Footer/Footer';
+import FooterCopyRight from './components/FooterCopyRight/FooterCopyRight';
 import Menu from './components/Menu/Menu';
 import AboutPage from './Pages/AboutPage/AboutPage';
 import ContactPage from './Pages/ContactPage/ContactPage';
@@ -26,8 +27,9 @@ function App() {
           <Route path='/about' element={<AboutPage />} />
           <Route path='/contact' element={<ContactPage />} />
         </Routes>
-        <Footer></Footer>
         <Menu></Menu>
+        <Footer></Footer>
+        <FooterCopyRight></FooterCopyRight>
       </BrowserRouter>
     </div>
   );

@@ -12,7 +12,9 @@ const Home = () => {
             <div id='header' className="header-dark" data-aos="fade-up">
                 {/* navbar */}
                 <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
-                    <div class="container"><a class="navbar-brand" href="/">Al-Manar Group</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="container">
+                        <a class="navbar-brand" href="/">Al-Manar Group</a>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse d-flex justify-content-end"
                             id="navcol-1">
                             <ul class="nav navbar-nav">
