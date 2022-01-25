@@ -19,10 +19,13 @@ const Home = () => {
                             id="navcol-1">
                             <ul class="nav navbar-nav">
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="/">HOME</a></li>
-                                <li class="nav-item" role="presentation"><a class="nav-link" href="/about">ABOUT</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="/contact">CONTACT</a></li>
                                 <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">COMPANIES </a>
-                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                    <div class="dropdown-menu" role="menu">
+                                        <a class="dropdown-item" role="presentation" href="http://intigsol.com/">Intigsol Ltd</a>
+                                        <a class="dropdown-item" role="presentation" href="https://tmacbd.com/">TMAC</a>
+                                        <a class="dropdown-item" role="presentation" href="https://familyfoodbd.com/">familyfoodbd</a>
+                                    </div>
                                 </li>
                             </ul>
                         </div>
@@ -36,7 +39,7 @@ const Home = () => {
                     <div className="row">
                         <div className=" mx-auto">
                             <div className='row'>
-                                <div data-aos="fade-right" data-aos-duration="2000" style={{ paddingBottom: "20vh" }} className=" col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column  align-items-start">
+                                <div data-aos="fade-right" data-aos-duration="2000" style={{ paddingBottom: "40vh" }} className=" col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column  align-items-start">
                                     <h1 className='text-left'>Welcome To <br></br>
                                         <strong className='brand-name'> AL-MANAR GROUP</strong></h1>
                                     <h2 className="mt-lg-3 text-justify">
